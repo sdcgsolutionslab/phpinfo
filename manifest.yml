@@ -1,5 +1,7 @@
 applications:
 - name: phpinfo
+  host: phpinfo
+  domain: helionstackato.com
   buildpack: https://github.com/cloudfoundry/php-buildpack
   memory: 64M
   stack: cflinuxfs2
